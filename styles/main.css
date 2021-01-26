@@ -1,0 +1,20 @@
+.criminalsList, .officersList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+  }
+  
+  .criminal, .officer {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    flex-basis: 25%;
+  }
+  
+  .criminal {
+    border: 1px dotted red;
+  }
+  
+  .officer {
+    border: 1px dotted blue;
+  }

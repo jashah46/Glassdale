@@ -1,6 +1,6 @@
-import { useOfficers } from "./OfficerProvider.js"
+
 import { getOfficers, useOfficers } from "./OfficerProvider.js"
-import { Officer } from "./Officer.js"
+import { Officer } from "./Officers.js"
 
 const officersContainer = document.querySelector(".officersContainer")
 
