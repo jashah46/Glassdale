@@ -13,7 +13,7 @@ export const CriminalList = () => {
       renderToDom(criminalsArray)
 
 
-      let criminalsHTMLRepresentations = ""
+      
     })
   }
 
@@ -24,9 +24,9 @@ export const CriminalList = () => {
       criminalsHTMLRepresentations += Criminal(criminal)
     }
 
-      for (const criminal of criminalsArray) {
-        criminalsHTMLRepresentations += Criminal(criminal)
-      }
+      // for (const criminal of criminalsArray) {
+      //   criminalsHTMLRepresentations += Criminal(criminal)
+      // }
       
       criminalsContainer.innerHTML = `
         <h3>Criminals</h3>
