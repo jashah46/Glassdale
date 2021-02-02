@@ -18,3 +18,80 @@
   .officer {
     border: 1px dotted blue;
   }
+
+    
+* {
+  margin: 0;
+  padding: 0;
+  /* border:  1px solid red; */
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+li {
+  list-style-type: none;
+  margin: 5px auto;
+}
+
+.criminalList > div {
+  /* background: gray; */
+  padding: 1em;
+  /* flex-grow: 1; */
+  flex-basis: 25%;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  border-radius: 15px;
+}
+
+.noteFormContainer {
+  /* width: 100%; */
+  flex: 1;
+}
+
+.noteForm {
+  margin: 2em 0;
+  width: 100%;
+}
+
+fieldset {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.noteList {
+  background: blue;
+  display: flex;
+}
+
+.note {
+  margin: 0 2em;
+  border: 1px solid red;
+  padding: 1em;
+  background: rgb(119, 114, 115);
+  /* flex: 1; */
+
+  flex-basis: 55%;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  border-radius: 15px;
+}
+
+.note > div {
+  margin-top: 10px;
+}
+
+.note__suspect {
+  background: lightblue;
+}
+
+.note__text {
+  background: rgba(0, 22, 0.8, 0.5);
+}
+
+
+
+
+
