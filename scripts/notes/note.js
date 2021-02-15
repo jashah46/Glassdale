@@ -5,6 +5,9 @@ export const NoteHTMLConverter = (noteObject) => {
             <div class="note__suspect">Title: ${ noteObject.comment }</div>
             <div class="note__author">Author: ${ noteObject.conclusion }</div>
             <div class="note__timestamp">Timestamp: ${ new Date(noteObject.timestamp).toLocaleDateString('en-US')  }</div>
+            <select id='noteForm--criminal' class='criminalSelect'>
+               <option value='${criminal.id}'>${criminal.name}</option>
+               </select>
         </section>
         `
 }

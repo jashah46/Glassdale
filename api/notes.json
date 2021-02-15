@@ -65,6 +65,13 @@
       "comment": "",
       "conclusion": "",
       "id": 12
+    },
+    {
+      "date": "2021-02-15",
+      "comment": "test",
+      "conclusion": "test",
+      "criminalId": 1,
+      "id": 13
     }
   ]
 }
