@@ -25,20 +25,20 @@ const render = (noteArray, criminalArray) => {
 // }
 
 // const eventHub = document.querySelector(".container")
+//This was deleted from here and moved to note.js per Jisie's code.
+// eventHub.addEventListener("click", clickEvent => {
+//     if (clickEvent.target.id.startsWith("deleteNote--")) {
+//         const [prefix, id] = clickEvent.target.id.split("--")
 
-eventHub.addEventListener("click", clickEvent => {
-    if (clickEvent.target.id.startsWith("deleteNote--")) {
-        const [prefix, id] = clickEvent.target.id.split("--")
-
-        deleteNote(id).then(
-            () => {
-                const updatedNotes = useNotes()
-                const criminals = useCriminals()
-                render(updatedNotes, criminals)
-            }
-        )
-    }
-})
+//         deleteNote(id).then(
+//             () => {
+//                 const updatedNotes = useNotes()
+//                 const criminals = useCriminals()
+//                 render(updatedNotes, criminals)
+//             }
+//         )
+//     }
+// })
 
 // Standard list function you're used to writing by now. BUT, don't call this in main.js! Why not?
 export const NoteList = () => {
