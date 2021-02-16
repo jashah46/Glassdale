@@ -31,11 +31,12 @@ export const saveNote = note => {
     .then(getNotes)
     .then(dispatchStateChangeEvent)
 }
-
+// we're saying the data has changed and to dispatch it. 
 export const deleteNote = noteId => {
     return fetch(`http://localhost:8088/notes/${noteId}`, {
         method: "Delete"
     })
     .then(getNotes)
+    .then(dispatchStateChangeEvent)
 }
 
