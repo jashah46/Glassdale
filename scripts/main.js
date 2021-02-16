@@ -7,7 +7,7 @@ import { CriminalList } from "./criminals/CriminalList.js";
 import { OfficerList } from "./officers/OfficerList.js";
 import { ShowNoteButton } from "./notes/ShowNotesButton.js";
 import "./notes/noteList.js";
-// import { NoteList } from "./notes/noteList.js";
+import { NoteList } from "./notes/noteList.js";
 
 
 
@@ -18,4 +18,4 @@ CriminalList()
 ConvictionSelect()
 NoteForm()
 ShowNoteButton()
-// NoteList()
+NoteList()

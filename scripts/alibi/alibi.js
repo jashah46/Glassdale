@@ -1,4 +1,4 @@
-export const Alibi = (criminal) => `<button id="associates--${criminal.id}>Associate Alibis</button>`
+export const Alibi = (criminal) => `<button id="associates--${criminal.id}">Associate Alibis</button>`
 
 const eventHub = document.querySelector(".container")
 /*

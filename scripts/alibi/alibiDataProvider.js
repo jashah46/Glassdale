@@ -3,7 +3,7 @@ import { useCriminals, getCriminals } from "../criminals/CriminalDataProvider.js
 let _associates = []
 
     export const useAssociates = (criminalId) => {
-        console.log("getting associates of criminal id", criminalId)
+        // console.log("getting associates of criminal id", criminalId)
 
         return getCriminals()
             .then(( ) => {

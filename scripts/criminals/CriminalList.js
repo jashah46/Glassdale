@@ -38,7 +38,7 @@ eventHub.addEventListener("crimeChosen", event => {
     const convictionThatWasChosen = convictionsArray.find(convictionObj => {
       return convictionObj.id === parseInt(event.detail.crimeThatWasChosen)
     })
-console.log((convictionThatWasChosen))
+// console.log((convictionThatWasChosen))
  
     const criminalsArray = useCriminals()
 

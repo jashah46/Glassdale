@@ -16,8 +16,8 @@ export const NoteForm = () => {
 
 const render = (criminalsArray) => {
     contentTarget.innerHTML = `
-        Notes
-        <label for="note-criminalId>Suspect:"> </label>
+        <h2>Notes</h2>
+        <label for="note-criminalId"> </label>
         <select class="dropdown" id="criminalSelect">
        
         <option value="0">Please select a criminal</option>
@@ -35,7 +35,6 @@ const render = (criminalsArray) => {
 const eventHub = document.querySelector(".container")
 eventHub.addEventListener("click", clickEvent => {
     if (clickEvent.target.id === "saveNote") {
-        console.log(clickEvent)
         // Make a new object representation of a note  
         // const date = document.getElementById("id").value 
         const date = document.querySelector("#noteDate").value 
