@@ -1,77 +1,19 @@
 {
   "notes": [
-    {
-      "date": "2021-02-01",
-      "comment": "guilty",
-      "conclusion": "guilty",
-      "id": 2
-    },
-    {
-      "date": "2021-02-01",
-      "comment": "gui",
-      "conclusion": "gui",
-      "id": 3
-    },
-    {
-      "date": "2021-02-01",
-      "comment": "gui",
-      "conclusion": "gui",
-      "id": 4
-    },
-    {
-      "date": "2021-02-01",
-      "comment": "Nate was there",
-      "conclusion": "Nate is the guy",
-      "id": 5
-    },
-    {
-      "date": "2021-02-01",
-      "comment": "Maddie was present",
-      "conclusion": "Maddie is a witness",
-      "id": 6
-    },
-    {
-      "date": "2021-02-01",
-      "comment": "Maddie was present",
-      "conclusion": "Maddie is a witness",
-      "id": 7
-    },
-    {
-      "date": "2021-02-01",
-      "comment": "he was there",
-      "conclusion": "Rogelio",
-      "id": 8
-    },
-    {
-      "date": "2021-02-01",
-      "comment": "jay",
-      "conclusion": "jay",
-      "id": 9
-    },
-    {
-      "date": "",
-      "comment": "",
-      "conclusion": "",
-      "id": 10
-    },
-    {
-      "date": "2021-02-01",
-      "comment": "Man in white bronco did it",
-      "conclusion": "OJ",
-      "id": 11
-    },
-    {
-      "date": "",
-      "comment": "",
-      "conclusion": "",
-      "id": 12
-    },
+  
     {
       "date": "2021-02-15",
       "comment": "test",
       "conclusion": "test",
       "criminalId": 1,
       "id": 13
+    },
+    {
+      "date": "2021-02-15",
+      "comment": "test",
+      "conclusion": "test",
+      "criminalId": 1,
+      "id": 14
     }
   ]
 }
